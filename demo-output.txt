@@ -1,0 +1,20 @@
+SmartRent KZ | LOCAL SIMULATION | no real funds or personal data
+1. Deployed local 2-of-3 admin: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+2. Deployed RentEscrow: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+3. First owner approved; inspector role is still absent.
+4. Second owner approved; executed inspector-role grant.
+5. Lease 1 locked 1 simulated ETH = 100,000 synthetic KZT.
+   Fictional display mapping only; no exchange rate, token or KZT transfer.
+   moveInHash: 0x7bddb1446bcc51c686f04d5cb2b02224336e63c54cb8cfcbf86cb38ec073eb2d
+   Escrow balance: 1.0
+6. Landlord confirmed no damage; deposit remains locked.
+7. Assigned inspector confirmed the identical move-out hash.
+8. Tenant triggered automatic full-deposit settlement: 1 simulated ETH.
+   Refund increase after adding back transaction gas: 1.0 simulated ETH.
+9. Final balances (simulated ETH; transaction senders pay simulated gas):
+   Tenant before lease: 10000.0
+   Tenant after refund: 9999.999875054251637295
+   Landlord before: 10000.0
+   Landlord after: 9999.999973143294068434
+   Escrow: 0.0
+Next, record: npx hardhat test (six test cases).

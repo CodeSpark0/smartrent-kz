@@ -1,0 +1,14 @@
+Compiled 10 Solidity files successfully (evm target: paris).
+
+
+  RentEscrow
+    ✔ 1. Deployment and Role Assignment (Admin & Inspector roles) (926ms)
+    ✔ 2. Creating a Lease and Locking Deposit with moveInHash
+    ✔ 3. Happy Path - Move-Out Confirmation and Automatic Deposit Release
+    ✔ 4. Dispute Resolution and Deposit Split by Inspector
+    ✔ 5. Automatic Refund to Tenant After Deadline Timeout
+    ✔ 6. Security & Access Control (unauthorized callers and paused-state actions revert)
+
+
+  6 passing (998ms)
+
