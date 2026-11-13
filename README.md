@@ -8,7 +8,7 @@ workflow on the **local, in-process Hardhat Network only**. Hyperledger Besu is 
 proposed consortium platform; this repository does not run Besu or test its consensus.
 No real users, property records, funds, tokens or commercial activity are involved.
 
-**Demo video:** [Demo Video Link - Google Drive]
+**Demo video:** https://drive.google.com/drive/folders/19XC4oX3ICpqjLHH-2GjYNXR1EflY4EWG?usp=sharing
 
 Replace that placeholder with the recorded video's shareable Google Drive link.
 Repository URL: replace with your team's GitHub repository URL after pushing.
