@@ -1,0 +1,21 @@
+{
+  "name": "smartrent-kz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local educational rental-deposit escrow simulation",
+  "license": "MIT",
+  "engines": { "node": ">=22.13.0 <23" },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "demo": "hardhat run scripts/demo.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "6.1.0",
+    "@openzeppelin/contracts": "5.0.2",
+    "chai": "4.5.0",
+    "ethers": "6.16.0",
+    "hardhat": "2.28.0",
+    "solc": "0.8.20"
+  }
+}
